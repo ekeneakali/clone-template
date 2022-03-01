@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>search</title>
+</head>
+<body>
+        <section class="center"><br><br>
+            <div style="margin: 70px; padding: 0px;">
+            <span style="font-size: 150px; color: blue;">G</span>
+            <span style="font-size: 110px; color: red;">o</span>
+            <span style="font-size: 110px; color: yellow;">o</span>
+            <span style="font-size: 110px; color: blue;">g</span>
+            <span style="font-size: 110px; color: lightgreen;">l</span>
+            <span style="font-size: 110px; color: red;">e</span>
+
+            </div>
+            <form action="{% url 'frontend:search' %}" class="color">
+                <i  class="fa fa-search"></i>
+                <input type="text" name="search">
+                <i class="fa fa-microphone"></i>
+                
+            </form>
+            <div class="continer-fluid" style="text-align: center;"><br><br><br><br>
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="#">am feeling excited</a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#">am feeling lucky</a>
+                    </div>
+                </div>
+            </div>
+            
+                    
+        </section>
+        
+</body>
+</html>
